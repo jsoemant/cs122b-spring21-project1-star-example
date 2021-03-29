@@ -43,7 +43,7 @@ This example shows a basic Java Servlet that shows a star list page.
 
 
 ### To Export the WAR file
-Export using maven in command line: Go to your project folder first, then do mvn clean, then do mvn package Your WAR file should be in the target/cs122b-spring21-project1-star-example.war
+Export using maven in command line: Go to your project folder first, then do `mvn clean`, then do `mvn package`. Your WAR file should be in `target/cs122b-spring21-project1-star-example.war`
 
 ### Brief Explanation
 - `index.html` is a simple welcome page. Open the url `localhost:8080/cs122b-spring21-project1-star-example`, if the welcome text shows up, then means that you have successfully deployed the project.
