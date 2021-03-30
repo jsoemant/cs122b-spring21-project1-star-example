@@ -17,7 +17,7 @@ public class StarServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         // change this to your own mysql username and password
         String loginUser = "mytestuser";
-        String loginPasswd = "mypassword";
+        String loginPasswd = "My6$Password";
         String loginUrl = "jdbc:mysql://localhost:3306/moviedbexample";
 
         // set response mime type
